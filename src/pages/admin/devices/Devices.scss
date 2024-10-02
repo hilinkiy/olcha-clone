@@ -1,0 +1,15 @@
+.admin__btn {
+	color: white !important;
+	background: #da002b !important;
+	border: #da002b 2px solid;
+}
+
+.admin__btn:hover {
+	color: #da002b !important;
+	background: transparent !important;
+	border: #da002b 2px solid !important;
+}
+
+.admin__header-block {
+	@apply flex items-center justify-between mb-10 bg-white p-6 rounded-xl
+}

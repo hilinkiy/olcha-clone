@@ -1,0 +1,36 @@
+.plum__button {
+	position: relative;
+	cursor: pointer;
+	color: white;
+	background: rgb(72, 72, 172);
+	border-radius: 32px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 55px;
+	transition: all 0.3s ease-in-out;
+}
+
+.plum__button > img {
+	width: 30px;
+}
+
+.plum__descr {
+	position: absolute;
+	left: 60px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.plum__button:hover .plum__descr {
+	position: relative;
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+.plum__button:hover {
+	width: 170px;
+}

@@ -1,0 +1,50 @@
+.admin__logo {
+	@apply text-[#FFFFFF] text-[35px] flex items-center gap-2 mb-5;
+	font-family: 'Source Sans 3';
+	font-weight: 700;
+}
+
+.aside {
+	background: #da002b !important;
+	@apply py-5 px-1;
+}
+
+.aside__menu {
+	background: #da002b !important;
+	display: flex !important;
+	flex-direction: column !important;
+	gap: 20px !important;
+	align-items: flex-start !important;
+}
+
+.ant-menu-item {
+	color: white !important;
+	font-weight: 600;
+	font-size: 17px;
+	font-family: 'Source Sans 3';
+}
+
+.ant-menu-item-selected {
+	color: #da002b !important;
+}
+
+.aside__link {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	@apply gap-2 w-full;
+
+	&:hover {
+		@apply text-white/70;
+	}
+
+	&.active {
+		background-color: #ffffff;
+		color: #da002b;
+		font-weight: bold;
+		@apply rounded-xl;
+	}
+}

@@ -1,0 +1,30 @@
+.card__parent {
+	@apply py-5 grid grid-cols-4 gap-6;
+	height: 200px;
+}
+
+.card__slide {
+	@apply rounded-xl text-black border-2 border-black/30 flex flex-col items-start justify-start px-3 py-5;
+}
+
+.card__title {
+	@apply text-[17px] font-semibold;
+}
+
+.card__price {
+	@apply text-[20px] font-bold;
+	margin-top: 20px;
+}
+
+.card__tick-price {
+	@apply bg-yellow-400 py-1 px-2 text-[13px] rounded-lg;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.card__buttons {
+	display: grid;
+	grid-template-columns: 1fr 20fr;
+	gap: 10px;
+	margin-top: 30px;
+}

@@ -1,0 +1,15 @@
+.admin__header-title {
+	@apply text-2xl text-[#da002b];
+	font-family: 'Source Sans 3';
+	font-weight: 700;
+}
+
+.admin__nav-title {
+	@apply text-2xl text-[#da002b];
+	font-family: 'Source Sans 3';
+	font-weight: 700;
+}
+
+.ant-btn:hover {
+	color: white !important;
+}

@@ -1,0 +1,31 @@
+.swiper {
+	@apply rounded-xl w-full h-full;
+}
+
+.swiper__slide {
+	@apply flex items-center justify-center text-white bg-[#da002b];
+}
+
+.swiper__content {
+	@apply h-[400px] gap-5 grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	@apply text-[#da002b] bg-white rounded-full p-6 text-sm;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	@apply text-xl font-extrabold;
+}
+
+.swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+	@apply bg-[#FFFFFF]
+}

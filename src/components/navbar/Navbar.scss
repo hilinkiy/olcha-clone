@@ -1,0 +1,30 @@
+.nav__logo {
+	@apply text-[#da002b] text-[40px];
+	font-family: 'Source Sans 3';
+	font-weight: 700;
+}
+
+.nav__button {
+	@apply bg-transparent hover:bg-transparent border-2 border-[#323232] text-black hover:border-[#da002b] hover:text-[#da002b] py-[10px] px-[28px] rounded-xl flex items-center gap-3;
+	font-family: 'Source Sans 3';
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav__input {
+	@apply border-2 border-[#323232] p-2.5 rounded-xl w-full;
+}
+
+.ant-btn:hover {
+	background: #da002b !important;
+	border-color: transparent !important;
+}
+
+.nav__list-btn {
+	@apply flex flex-col items-center;
+	transition: all .2s ease-in-out;
+}
+
+.nav__list-btn:hover {
+	@apply text-[#da002b];
+}
